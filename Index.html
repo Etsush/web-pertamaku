@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Pertamaku</title>
+    <style> 
+      h1 { color: blue
+      }
+      p {color: red
+      }
+      p2 {color: green
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Halo, Dunia!</h1>
+    <p>Ini adalah website pertama saya.</p>
+    <p2> ini website pertama saya untuk mencoba dan melatih kemampuan saya dalam membuat website</p2>
+    <p3> masukan nama anda dsini</p3>
+    <input type ="text" id="namaPengguna" placeholder="ketik nama anda disini">
+    <button onclick="sapaPengunjung()">klik saya!</button>
+    
+    <script>
+      function sapaPengunjung() {
+        let nama = document.getElementById("namaPengguna").value;
+
+        alert("selamat datang, "+ nama + "!");
+      }
+    </script>
+  </body>
+</html>
